@@ -1,17 +1,13 @@
 <?php
-$length = 10;
-$width = 5;
 
-// Calculate area
+$length = 20;
+$width = 10;
+
 $area = $length * $width;
-
-// Calculate perimeter
 $perimeter = 2 * ($length + $width);
 
-// Display the results
-echo "For a rectangle with length $length and width $width:\n";
-echo "Area: $area square units\n";
-echo "Perimeter: $perimeter units\n";
-
+echo "The Rectangle length is $length and width is $width\n";
+echo "The Area of a Rectangle is: $area \n";
+echo "The Area of a Perimeter is: $perimeter \n";
 
 ?>
